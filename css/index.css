@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background:
+     #EAECF0 
+}
+header{
+	height:70px;
+	margin: 1px 1px 1px 1px;
+	padding: 20px 1px 1px 1px;
+}
+
+#logo a {
+	margin-left: 20px;
+	float: left;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 26px;
+	text-shadow: 0 1px 0 white;
+	color: #373e47;
+}
+#logo a1 {
+	margin-left: 20px;
+	float: left;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 26px;
+	text-shadow: 0 1px 0 white;
+	color: #b45b12d0;
+}
+
+nav {
+	overflow: hidden;
+	float: right;
+}
+
+nav li {
+	float:left;
+	list-style: none;
+}
+nav li a {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 30px;
+	color: #143567;
+	text-shadow: 0 1px 0 white;
+}
+
+nav li a:hover {
+	color: #a45f93;
+}
+
+main {
+text-align: center;
+}
+
+#home {
+	font-size: 30px;
+	height:350px;
+	margin: 1px 1px 1px 1px;
+	padding: 30px;
+}
+
+#service {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+
+#portfolio {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+
+#feedback {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
