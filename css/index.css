@@ -9,8 +9,8 @@ html,body {
 }
 
 body {
-	background:
-     rgba(250, 239, 178, 0.555) 
+	background: 
+     rgb(252, 252, 252) 
 }
 header{
 	height:70px;
@@ -67,7 +67,7 @@ text-align: center;
 	font-size: 30px;
 	height:350px;
 	margin: 1px 1px 1px 1px;
-	padding: 30px;
+	padding: 40px;
 }
 
 #service {
