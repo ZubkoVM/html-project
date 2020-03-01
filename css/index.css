@@ -10,7 +10,7 @@ html,body {
 
 body {
 	background:
-     #EAECF0 
+     rgba(250, 239, 178, 0.555) 
 }
 header{
 	height:70px;
@@ -27,7 +27,7 @@ header{
 	text-shadow: 0 1px 0 white;
 	color: #373e47;
 }
-#logo a1 {
+#logo h1 {
 	margin-left: 20px;
 	float: left;
 	font-weight: bold;
@@ -86,4 +86,8 @@ text-align: center;
 	border-top-style: solid;
 	line-height: 1.5;
 	padding: 30px;
+}
+iframe {
+    width: 560px;
+    height: 315px;
 }
