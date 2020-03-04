@@ -1,0 +1,68 @@
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+.logo {
+    font: 12pt sans-serif; 
+   } 
+   h1 {
+    font: 200% serif;
+   }
+   
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+header .fire1 {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav h1 {
+    font-family: 'Trade Winds';
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: left;
+    color: red;
+}
+
+header nav p {
+    font-family: 'Trade Winds';
+    text-transform: uppercase;
+    text-align: left;
+    color: brown
+}
+
+header nav .top-menu {
+    display: block;
+    text-align: right;
+    line-height: 1.5;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+    word-spacing: 10px;
+}
+
+header nav .top-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: orange;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+header nav .top-menu {
+        flex: 1;
+        min-width: 550px;
+}
+
+header nav {
+        display: flex;
+    }
+
