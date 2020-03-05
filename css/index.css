@@ -156,13 +156,7 @@ header .banner .title {
 	width: 100%;
 	height: auto;
 }
-/*
-.cssSlider .slides > li:first-child:not(:target) {
-	z-index: 1;
-	-webkit-transform: translateY(0%);
-	        transform: translateY(0%);
-}
-*/
+
 .cssSlider .thumbnails {
 	display: block;
 	position: relative;
@@ -232,4 +226,40 @@ header .banner .title {
 		-webkit-transform: translateX(100%);
 		        transform: translateX(100%);
 	}
+}
+
+#info {
+	font-size: 20px;
+	height:250px;
+	margin: auto;
+	padding: 30px;
+    font-family: 'Courier New';
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+nav li{
+    font-weight: bold;
+}
+
+footer .fire2 {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu {
+	font-size: 20px;
+	height:250px;
+	margin: auto;
+	padding: 30px;
+    font-family: 'Courier New';
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+#menu .1{
+    display: flex;
 }
