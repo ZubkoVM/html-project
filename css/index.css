@@ -257,9 +257,22 @@ footer .fire2 {
 	padding: 30px;
     font-family: 'Courier New';
     text-align: center;
-    margin-bottom: 250px;
+    margin-bottom: 25px;
 }
 
-#menu .1{
-    display: flex;
+.menu-banner {
+    display: block; 
+    text-align: center; 
+    font-style: italic; 
+    margin-top: 0;
+    margin-bottom: 5px;
 }
+
+.reserv-banner {
+    display: block; 
+    text-align: center; 
+    margin-top: 0; 
+    margin-bottom: 5px;
+}
+
+
