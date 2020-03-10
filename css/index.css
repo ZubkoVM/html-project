@@ -252,7 +252,6 @@ footer .fire2 {
 
 #menu {
 	font-size: 20px;
-	height:250px;
 	margin: auto;
 	padding: 30px;
     font-family: 'Courier New';
@@ -262,8 +261,7 @@ footer .fire2 {
 
 .menu-banner {
     display: block; 
-    text-align: center; 
-    font-style: italic; 
+    text-align: center;  
     margin-top: 0;
     margin-bottom: 5px;
 }
@@ -274,5 +272,28 @@ footer .fire2 {
     margin-top: 0; 
     margin-bottom: 5px;
 }
+
+main .menu-logo {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:0px auto;
+    float: left;
+    font-size: 30px;
+    text-shadow: 0 1px 0 #ff9a17;
+    color: black;
+}
+
+#reserv {
+	font-size: 20px;
+	margin: auto;
+	padding: 30px;
+    font-family: 'Courier New';
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+
 
 
