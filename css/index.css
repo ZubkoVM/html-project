@@ -1,20 +1,20 @@
+:root {
+    scroll-behavior: smooth;
+}
 body {
     max-width: 980px;
     margin: auto;
 }
-
 .logo {
     font: 12pt sans-serif; 
    } 
    h1 {
     font: 200% serif;
-   }
-   
+   }  
 h1, p {
     margin: 0;
     padding: 0;
 }
-
 header .fire1 {
     width: 100%;
     background-position: center;
@@ -22,7 +22,6 @@ header .fire1 {
     display: flex;
     flex-direction: column;
 }
-
 header nav h1 {
     font-family: 'Trade Winds';
     font-size: 3rem;
@@ -30,14 +29,12 @@ header nav h1 {
     text-align: left;
     color: red;
 }
-
 header nav p {
     font-family: 'Trade Winds';
     text-transform: uppercase;
     text-align: left;
     color: brown
 }
-
 header nav .top-menu {
     display: block;
     text-align: right;
@@ -48,7 +45,6 @@ header nav .top-menu {
     list-style-type: none;
     word-spacing: 10px;
 }
-
 header nav .top-menu a {
     text-decoration: none;
     text-transform: uppercase;
@@ -57,15 +53,12 @@ header nav .top-menu a {
     border: 1px solid transparent;
     padding: 5px;
 }
-
 header nav .top-menu {
         flex: 1;
 }
-
 header nav {
         display: flex;
     }
-
 header .banner {
     background-image: url(../img/stejk-na-grile.jpg);
     background-position: center;
@@ -75,11 +68,8 @@ header .banner {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: auto;
-	padding: auto;
+    margin: auto;	
 }
-
-
 header .banner .title {
     font-size: 3rem;
     font-family: 'Courier New';
@@ -91,7 +81,6 @@ header .banner .title {
     text-align: center;
     margin: 100px 0 0 0;
 }
-
 .button {
     display: inline-block;
     padding: 0.35em 1.2em;
@@ -107,32 +96,26 @@ header .banner .title {
     background-color: transparent;
     font-weight: bold;
 }
-
 .button:hover {
     color: #000000;
     background-color: orange;
     cursor: pointer;
 }
-
 #pronas {
     margin: auto;
-	padding: auto;
 	font-size: 20px;
     font-family: 'Courier New';
 	line-height: 40px;
     text-align: center;
 }
-
 #galereya {
     font-size: 20px;
 	height:50px;
 	margin: auto;
-	padding: auto;
     font-family: 'Courier New';
     text-align: center;
     margin-bottom: 10px;
 }
-
 .cssSlider {
 	display: block;
 	position: relative;
@@ -159,7 +142,6 @@ header .banner .title {
 	width: 100%;
 	height: auto;
 }
-
 .cssSlider .thumbnails {
 	display: block;
 	position: relative;
@@ -178,7 +160,6 @@ header .banner .title {
 	width: 100%;
 	height: auto;
 }
-
 .cssSlider .slides li:target {
 	z-index: 3;
 	-webkit-animation: slide 1s 1;
@@ -237,12 +218,10 @@ header .banner .title {
 	line-height: 30px;
     text-align: center;
 }
-
 nav li{
     font-weight: bold;
     text-shadow: 0 1px 0 #ff9a17;
 }
-
 #menu {
 	font-size: 20px;
 	
@@ -252,21 +231,16 @@ nav li{
     margin: 5%;
 	padding: 5%;
 }
-
-.menu-banner {
-    
+.menu-banner {   
     text-align: center;  
     margin-top: 0;
     margin-bottom: 5px;
 }
-
-.reserv-banner {
-    
+.reserv-banner {   
     text-align: center; 
     margin-top: 0; 
     margin-bottom: 5px;
 }
-
 main .menu-logo {
     display: grid;
     grid-gap: 5px;
@@ -277,7 +251,6 @@ main .menu-logo {
     text-shadow: 0 1px 0 #ff9a17;
     color: black;
 }
-
 #reserv {
 	font-size: 20px;
 	margin: auto;
@@ -288,7 +261,6 @@ main .menu-logo {
     background: #eee;
     border: 1px solid #ccc;
 }
-
 .volny {
     width: 100%;
     background-position: center;
@@ -296,7 +268,6 @@ main .menu-logo {
     display: flex;
     flex-direction: column;;
 }
-
 #contact {
     font-size: 20px;
     font-family: 'Courier New';
@@ -307,9 +278,8 @@ main .menu-logo {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+    line-height: 50px;
 }
-
 #network {
     float: left;
     font-size: 20px;
@@ -321,17 +291,14 @@ main .menu-logo {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+    line-height: 50px;
 }
-
-
 footer .fire2 {
     width: 100%;
     background-position: center;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-   
+    flex-direction: column;  
 }
 
 
