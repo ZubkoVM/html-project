@@ -45,6 +45,9 @@
         <div id="pronas">
             <p>Смачна їжа є не тільки потребою для життя людини, але й джерелом величезного задоволення, посилити яке можливо тільки одним способом — скуштувати страви, приготовані в ресторані Steak & KO. Адже тільки тут готують найкращі стейки у Львові — втілення мрії гурманів та справжній феєрверк смаку для прихильників американської національної кухні.
             </p>
+            <div class="volny">
+            <img src="img/skinali_volny_linii_61203.jpg" alt="volny">
+            </div>
             <p>
 Для вас — найкращий вибір смачних стейків у Львові
 Технологія приготування страв в грилі — один з найдавніших винаходів людства, який з плином часу не втратив своєї актуальності і набув шаленої популярності.
@@ -83,6 +86,9 @@
 <li>заворожуюча автентичність атмосфери справжнього техаського салуна.</li>
             </ul>
             </nav>
+            <div class="volny">
+            <img src="img/skinali_volny_linii_61203.jpg" alt="volny">
+            </div>
             <p>
 Стейки в Steak & KO — смак, який неможливо забути
             </p>
@@ -93,10 +99,13 @@
 Ресторан Steak & KO у Львові — створений для тих, хто не може прожити ні дня без ароматного шматка смаженого м’яса.
             </p>
         </section>
+
+
+
+        <section id="menu">
     <div class="menu-banner">
         <img src="img/menu.PNG" alt="menu-banner">
     </div>    
-        <section id="menu">
             <h2>МЕНЮ</h2>
 <main>
     <article class="menu-logo">
@@ -125,21 +134,16 @@
         </article>
 </main>        
         </section>
+    
+    <div class="volny">
+            <img src="img/skinali_volny_linii_61203.jpg" alt="volny">
+            </div>
+
     <div class="reserv-banner">
         <img src="img/reserved.PNG" alt="reserv-banner">
     </div>    
         <section id="reserv">
             <h2>Забронювати столик</h2>
-        	<form>
-        	    <input type="text" placeholder="Ім'я"><br>
-        		<input type="text" placeholder="телефон"><br>
-        		<input type="text" placeholder="К-сть відвідувачів"><br>
-                <input type="text" placeholder="дата, час"><br>
-        		<input type="email" placeholder="E-mail"><br>
-        		<textarea placeholder="коментар"></textarea><br>
-                <input type="submit" value="зарезервувати">
-        	</form>
-
 <form action="https://formspree.io/mlennzpz" method="POST">
             <label>
                  ІМ'Я:
@@ -147,18 +151,37 @@
             </label>
             <br>
             <label>
+                 Телефон:
+                <input type="text" name="client-phone" placeholder="телефон" required>
+            </label>
+            <br>
+            <label>
+                 К-сть відвідувачів:
+                <input type="text" name="client-visitors" placeholder="К-сть" required>
+            </label>
+            <br>
+            <label>
+                 дата, час:
+                <input type="text" name="client-time" placeholder="дата, час" required>
+            </label>
+            <br>
+            <label>
                 E-MAIL:
                 <input type="email" name="client-email" placeholder="E-mail" required>
             </label>
             <br>
-            <label>ЗАБРОНЮЙТЕ СТОЛИК ЗАЗДАЛЕГІТЬ</label>
+            <label>
+            <input type="comment" name="client-comment" placeholder="коментар" required>
+            </label>
             <br>
-            <input type="submit" value="Зарезервувати">
-            <input type="reset" value="Очистити">
-        </form>
+            <button class="button" type="submit" value="Зарезервувати">Зарезервувати</button>
+            <button class="button" type="reset" value="Очистити">Очистити</button>
+        
+</form>
 
         </section>
 </main>
+
     <footer>
         <section id="dostavka">
         <div id="contact">
@@ -173,8 +196,8 @@
                     На вихідні 12.00 — 23.00</li>
     	    </ul>
 	    </div>
-        </section>       
-         <div>
+              
+         <div id="network">
             <h2>Ми в соціальних мережах</h2>
             <ul>
         		<li>https://www.facebook.com</li>
@@ -182,10 +205,9 @@
         		<li>https://ru.foursquare.com</li>
     	    </ul>
 	    </div>
-	    <span>Анімація для авторських прав 2020 для бізнесу</span>
-    <div class="fire2">
-        <img src="img/fire2.jpg" alt="fire2">
-        </div>
+        </section>
+	    <span>для авторських прав © 2020 для бізнесу</span>
+        
     </footer>
 </body>
 </html>
