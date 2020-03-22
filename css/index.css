@@ -16,11 +16,14 @@ h1, p {
     padding: 0;
 }
 header .fire1 {
+    
     width: 100%;
     background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
+    
+    margin: auto;	
 }
 header nav h1 {
     font-family: 'Trade Winds';
