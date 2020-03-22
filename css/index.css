@@ -2,8 +2,8 @@
     scroll-behavior: smooth;
 }
 body {
-    max-width: 980px;
     margin: auto;
+    
 }
 .logo {
     font: 12pt sans-serif; 
