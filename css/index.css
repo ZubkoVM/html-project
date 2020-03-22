@@ -51,8 +51,8 @@ header nav .top-menu {
 header nav .top-menu a {
     text-decoration: none;
     text-transform: uppercase;
-    color: orange;
-    text-shadow: 0 1px 0 #ff9a17;
+    color: brown;
+    text-shadow: 0 0 20px rgb(122, 207, 10),  0 0 20px rgba(10, 175, 230, 0);
     border: 1px solid transparent;
     padding: 5px;
 }
@@ -325,6 +325,13 @@ nav .menu-list a {
     letter-spacing: 0.5em;
 }
  
+.clock {
+		font-size: 40px;
+	font-family: monospace;
+    color: #bd2130;
+    color: brown;
+    text-shadow: 0 0 20px rgb(122, 207, 10),  0 0 20px rgba(10, 175, 230, 0);
+	} 
 
 
 
