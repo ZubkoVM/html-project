@@ -5,11 +5,14 @@ function PDF() {
   myWin= open("menu/menuNEW.pdf");
 }
 
+jQuery(document).ready(function() {
+ $("#txt").textillate({});
+ });
+
+ 
 window.onload = function soundClick() {
   var audio = new Audio(); 
   audio.src = "sound/08422.mp3"; 
   audio.autoplay = true; 
 }
-
-
 
