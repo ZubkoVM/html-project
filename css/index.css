@@ -307,11 +307,15 @@ footer .fire2 {
     margin: 5%;
 	padding: 5%;
 }
-nav .menu-list {
-    
-    font-family: 'Courier New';
-    
+
+
+nav .menu-list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: brown;
+     letter-spacing: 0.5em;
 }
+ 
 
 
 
