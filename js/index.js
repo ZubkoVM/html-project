@@ -6,7 +6,7 @@ function PDF() {
 }
 
 jQuery(document).ready(function() {
- $("#txt").textillate({});
+ $('.txt').textillate({});
  });
 
  
@@ -16,3 +16,19 @@ window.onload = function soundClick() {
   audio.autoplay = true; 
 }
 
+$(function () { $('.textillate').textillate({ in: { effect:'bounceInLeft'} }); }) 
+
+$(function () { $('.textillateflash').textillate({ in: { effect:'flash'} }); })
+
+//$(document).ready(function() {
+   // $('.textillateflash').animated('flash', 'fadeOut');
+//}
+
+//$(document).ready(function() {
+  // $(".textillateflash").animated("zoomInUP", "zoomOutDown");
+  // $(".count_element").on("click", (function() {
+      // ga("send", "event", "goal", "goal");
+       //yaConterXXXXXXXX.reachGoal("goal");
+      // return true;
+  // }));
+//}
